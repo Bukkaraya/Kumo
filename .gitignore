@@ -106,3 +106,5 @@ man/
 # mypy
 .mypy_cache/
 
+# Models
+models/
