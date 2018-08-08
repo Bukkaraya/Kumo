@@ -1,0 +1,21 @@
+intents:
+  - weather
+  - greet
+
+entities:
+  - city
+
+slots:
+  city:
+    type: text
+
+templates:
+  utter_greet:
+    - 'Hello there'
+  utter_get_weather_city:
+    - 'What location do you want the weather for?'
+
+actions:
+  - utter_greet
+  - utter_get_weather_city
+  - action.ActionGetWeather

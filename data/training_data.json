@@ -1,0 +1,50 @@
+﻿{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "text": "What's the weather like outside?",
+        "intent": "weather",
+        "entities": []
+      },
+      {
+        "text": "What's the weather like in Toronto",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 27,
+            "end": 34,
+            "value": "Toronto",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "How hot is it in Guelph?",
+        "intent": "weather",
+        "entities": [
+          {
+            "start": 17,
+            "end": 23,
+            "value": "Guelph",
+            "entity": "city"
+          }
+        ]
+      },
+      {
+        "text": "What's it like outside?",
+        "intent": "weather",
+        "entities": []
+      },
+      {
+        "text": "Hello there",
+        "intent": "greet",
+        "entities": []
+      },
+      {
+        "text": "Howdy",
+        "intent": "greet",
+        "entities": []
+      }
+    ]
+  }
+}
