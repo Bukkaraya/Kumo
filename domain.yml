@@ -1,6 +1,7 @@
 intents:
   - weather
   - greet
+  - inform
 
 entities:
   - city
@@ -11,11 +12,15 @@ slots:
 
 templates:
   utter_greet:
-    - 'Hello there'
-  utter_get_weather_city:
-    - 'What location do you want the weather for?'
+  - text: "Hey! How are you?"
+
+  utter_get_city:
+  - text: "What city do you live in?"
+
+  utter_default:
+    - "default message"
 
 actions:
   - utter_greet
-  - utter_get_weather_city
+  - utter_get_city
   - action.ActionGetWeather

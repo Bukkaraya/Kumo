@@ -23,5 +23,4 @@ def run_online_trainer(input_channel,
 
 if __name__ == '__main__':
     logging.basicConfig(level='INFO')
-    interpreter = RasaNLUInterpreter('./models/nlu/default/model_20180808-121641')
-    run_online_trainer(ConsoleInputChannel(), interpreter)
+    run_online_trainer(ConsoleInputChannel(), RegexInterpreter())

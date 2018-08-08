@@ -12,3 +12,18 @@
     - action_get_weather
     - export
 
+## Generated Story -2138550567803628609
+* greet
+    - export
+
+## Generated Story -7702385835227401268
+* greet
+    - utter_greet
+    - export
+
+## Generated Story -3744915079879887487
+* greet
+    - utter_greet
+* weather
+    - action_get_weather
+
