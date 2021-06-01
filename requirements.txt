@@ -52,7 +52,7 @@ tqdm==4.24.0
 Twisted==18.7.0
 typing==3.6.4
 ujson==1.35
-urllib3==1.23
+urllib3==1.26.5
 Werkzeug==0.14.1
 wrapt==1.10.11
 zope.interface==4.5.0
